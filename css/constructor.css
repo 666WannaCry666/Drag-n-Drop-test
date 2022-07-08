@@ -1,0 +1,26 @@
+.constructor {
+    display: flex;
+    width: 100vw;
+    height: 930px;
+}
+
+.templates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.template__img {
+    cursor: move;
+}
+
+.main-edit-area {
+    width: 75%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

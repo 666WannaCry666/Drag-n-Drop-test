@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #900000;
+    height: 40px;
+    padding-bottom: 3px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+} 
+
+.menu__icon {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.menu-list {
+    display: flex;
+    height: 40px;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 8px;
+}
+
+.menu__item:hover {
+    background-color: #bf0c08;
+    border-bottom: 3px solid #fff;
+}
+
+.menu__item-icon {
+    margin-right: 5px;
+}
+
+.menu__item-icon, .menu__item-text {
+    color: #eee;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.menu-test {
+    height: 40px;
+    margin-left: auto;
+}
+
+.menu-test__button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 8px;
+}
+
+.menu-test__button:hover {
+    background-color: #bf0c08;
+    border-bottom: 3px solid #fff;
+}
+
