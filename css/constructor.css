@@ -1,26 +1,79 @@
 .constructor {
     display: flex;
-    width: 100vw;
+    justify-content: flex-start;
+    width: 98vw;
     height: 930px;
+    margin: 0;
 }
 
-.templates {
+.templates, .edit {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
-    height: 100%;
+    width: 390px;
+    height: 929px;
     background-color: #eee;
+    padding-top: 5px;
 }
 
 .template__img {
+    display: flex;
     cursor: move;
+    height: fit-content;
+    margin-bottom: 5px;
+}
+
+.edit {
+    display: none;
+    font-size: 40px;
+    align-items: stretch;
+}
+
+.edit__button {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.edit__button:hover {
+    color: green;
+}
+
+.edit__button-text {
+    font-family: "Noto Sans", sans-serif;
 }
 
 .main-edit-area {
-    width: 75%;
-    overflow-y: scroll;
+    width: 1165px;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
+}
+
+.drag-img {
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    margin: 2.5px 0;
+}
+
+.dropped-img {
+    display: flex;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    margin: 2.5px 0;
+}
+
+.dropped-img:hover {
+    border: 1px solid rgba(255, 99, 71, 0.5);
+}
+
+.selected-block {
+    border: 2px solid tomato;
+}
+
+.selected-block:hover {
+    border-width: 3px;
 }

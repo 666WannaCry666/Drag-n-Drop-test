@@ -1,7 +1,7 @@
 .navbar {
     background-color: #900000;
     height: 40px;
-    padding-bottom: 3px;
+    padding-bottom: 3px;    
 }
 
 .menu {
@@ -25,11 +25,17 @@
 .menu__item {
     display: flex;
     align-items: center;
+    cursor: pointer;
     height: 100%;
     padding: 0 8px;
 }
 
 .menu__item:hover {
+    background-color: #bf0c08;
+    border-bottom: 3px solid #bf0c08;
+}
+
+.selected-partition {
     background-color: #bf0c08;
     border-bottom: 3px solid #fff;
 }
@@ -59,6 +65,6 @@
 
 .menu-test__button:hover {
     background-color: #bf0c08;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #bf0c08;
 }
 

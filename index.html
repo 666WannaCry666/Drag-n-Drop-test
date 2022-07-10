@@ -15,17 +15,17 @@
                 <img src="img/mosaico32.png" alt="Logo">
             </div>
             <div class="menu-list">
-                <a href="#" class="menu__item">
+                <div id="blocks" class="menu__item selected-partition">
                     <i class="menu__item-icon fa fa-fw fa-cubes"></i>
                     <span class="menu__item-text">BLOCKS</span>
-                </a>
-                <a href="#" class="menu__item">
+                </div>
+                <div id="content" class="menu__item">
                     <i class="menu__item-icon fa fa-fw fa-pencil"></i>
                     <span class="menu__item-text">CONTENT</span>
-                </a>
+                </div>
             </div>
             <div class="menu-test">
-                <a href="#" class="menu-test__button">
+                <a id="test" href="#" class="menu-test__button">
                     <i class="menu__item-icon fa fa-fw fa-paper-plane"></i>
                     <span class="menu__item-text">TEST</span>
                 </a>
@@ -43,6 +43,20 @@
             <div id="picture_3"  draggable="false" class="template__img">
                 <img src="img/picture_3.png" alt="Block">
             </div>
+        </div>
+        <div class="edit">
+            <a id="move-up" href="#" class="edit__button">
+                <i class="fa fa-fw fa-circle-arrow-up"></i>
+                <span class="edit__button-text">Move Up</span>
+            </a>
+            <a id="move-down" href="#" class="edit__button">
+                <i class="fa fa-fw fa-circle-arrow-down"></i>
+                <span class="edit__button-text">Move Down</span>
+            </a>
+            <a id="delete" href="#" class="edit__button">
+                <i class="fa fa-fw fa-trash"></i>
+                <span class="edit__button-text">Delete</span>
+            </a>
         </div>
         <div class="main-edit-area">
             
